@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  connection: local
+  tasks:
+    - name: "Include mtulio.lab"
+      include_role:
+        name: "mtulio.lab"
