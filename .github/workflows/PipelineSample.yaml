@@ -57,14 +57,15 @@ jobs:
       - name: Save images to tar
         run: |
           #source ./scripts/build.sh
-          tar cfz test.tgz test.txt
+          mkdir build
+          tar cfz build/test.tgz test.txt
       - name: Save artifacts
         uses: actions/upload-artifact@v2
         with:
           #name: build-linux-${{ github.run_id }}
           name: test.tgz
-          #path: |
-          #  build
+          path: |
+            build
   stress-test-linux:
     runs-on: ubuntu-latest
     needs: [build]
