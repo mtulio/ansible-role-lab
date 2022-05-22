@@ -2,7 +2,7 @@ galaxy_info:
   author: Marco Braga
   role_name: lab
   namespace: mtulio
-  description: Home Lab Ansible Role
+  description: Personal Lab Ansible Role (don't use it)
   company: Personal
 
   # If the issue tracker for your role is not on github, uncomment the
