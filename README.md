@@ -1,6 +1,8 @@
 Role Name
 =========
 
+[![Molecule Test](https://github.com/mtulio/ansible-role-lab/actions/workflows/molecule.yaml/badge.svg)](https://github.com/mtulio/ansible-role-lab/actions/workflows/molecule.yaml)
+
 A brief description of the role goes here.
 
 Requirements
