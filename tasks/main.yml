@@ -1,0 +1,6 @@
+---
+# tasks file for lab
+
+- name: Molecule Hello World!
+  debug:
+    msg: Hello, World!
